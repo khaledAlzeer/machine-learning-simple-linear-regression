@@ -1,20 +1,26 @@
 📈 Simple Linear Regression – Salary Prediction
+
 📖 Project Overview
 
-This project demonstrates how to implement Simple Linear Regression using Python and Scikit-Learn.
+This project demonstrates Simple Linear Regression using Python and Scikit-Learn.
 
-The goal is to predict an employee’s salary based on their years of experience.
+The goal is to predict salary based on years of experience.
 
-This project covers:
+The model learns the linear relationship between:
 
-Data loading
+- Years of Experience (independent variable)
+- Salary (dependent variable)
 
-Train-test splitting
+The final regression equation is extracted using the model coefficients.
 
-Model training
+------------------------------------------------------------
 
-Predictions
+📂 Dataset Description
 
-Data visualization
+The dataset contains:
 
-Extracting regression equation
+| Column            | Description |
+|-------------------|------------|
+| YearsExperience  | Independent variable (feature) |
+| Salary           | Dependent variable (target) |
+
